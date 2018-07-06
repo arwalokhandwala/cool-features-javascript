@@ -10,16 +10,16 @@ This repository includes all new useful ES6, ES7 and ES8 features
 
 ### Cool..Lets get started !!!
 
-- [block scope] (#block-scope)
-- [arrow function] (#arrow-function)
-- [template literals] (#template-literals)
-- [property shorthand] (#property-shorthand)
-- [object literals] (#object-literals)
-- [object destructuring] (#object-destructuring)
-- [default argument values] (#default-argument-values)
-- [startsWith, endsWith] (#startswith()--endswith())
-- [includes] (#includes())
-- [padStart, padEnd] (#padstart()--padend())
+- [block scope](#block-scope)
+- [arrow function](#arrow-function)
+- [template literals](#template-literals)
+- [property shorthand](#property-shorthand)
+- [object literals](#object-literals)
+- [object destructuring](#object-destructuring)
+- [default argument values](#default-argument-values)
+- [startsWith, endsWith](#startswith-endswith)
+- [includes](#includes)
+- [padStart, padEnd](#padstart-padend)
 
 ### Block scope
 
