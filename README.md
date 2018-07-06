@@ -43,13 +43,13 @@ console.log(a, 'Outer Scope')   // 20 Outer Scope
 
 Putting fun around functions :wink:
 
-//Before
+Before
 ```Javascript
 function sayHello() {
   return 'Hello Guys!!'
 }
 ```
-//After
+After
 ```Javascript
 let sayHello = () => 'Hello Guys!!'
 ```
@@ -59,32 +59,32 @@ Use **back tick(`)** instead of single quote or double quote
 
 #### Multi Line Strings
 
-//Before
+Before
 ```Javascript
 console.log('string text line 1\n' +
 'string text line 2');
 ```
-//After
+After
 ```Javascript
 console.log(`string text line 1
 string text line 2`);
 ```
 #### Expression Interpolation
 
-//Before
+Before
 ```Javascript
 var a = 5;
 var b = 10;
 console.log('The sum of a & b is ' + (a + b) + '.');
 ```
-//After
+After
 ```Javascript
 var a = 5, b = 10
 console.log(`The sum of a & b is ${a + b}`)
 ```
 ### Property Shorthand
 
-//Before
+Before
 ```Javascript
 var name = 'Arwa Lokhandwala';
 var obj = {
@@ -92,7 +92,7 @@ var obj = {
 }
 console.log(obj)
 ```
-//After
+After
 ```Javascript
 var name = 'Arwa Lokhandwala'
 var obj = {
@@ -104,7 +104,7 @@ console.log(obj)
 
 #### Shorthand for writing Methods
 
-//Before
+Before
 ```Javascript
 var obj = {
   add : function(a,b) {
@@ -113,7 +113,7 @@ var obj = {
 }
 ```
 
-//After
+After
 ```Javascript
 var obj = {
   add(a,b) {
@@ -123,7 +123,7 @@ var obj = {
 ```
 #### Computed Properties
 
-//Example
+Example
 ```Javascript
 var i = 0
 var fruits = {
@@ -135,19 +135,19 @@ var fruits = {
 
 Quickly extract values from objects and arrays
 
-//Example 1 (With Objects)
+Example 1 (With Objects)
 ```Javascript
 let animal = { type: 'dog', sound: 'woof', paws: 4 };
 let {name, sound, paws} = animal;
 console.log(sound, name); /// "woof undefined"
 ```
-//Example 2 (With Arrays)
+Example 2 (With Arrays)
 ```Javascript
 let [n1, n2, n3, n4, ...r] = [100, 'three', 34, {number: 23}, 694, 'eighteen'];
 console.log(n1, n2, n3, n4); // "100 'three' 34 { number: 23 }"
 console.log(r); // "[ 694, 'eighteen' ]"
 ```
-//Example 3 (Nested Objects)
+Example 3 (Nested Objects)
 ```Javascript
 var details = {
   name: 'Arwa Lokhandwala',
@@ -162,7 +162,7 @@ console.log(pincode) //400055
 ```
 ### Default Argument Values
 
-//Example
+Example
 ```Javascript
 function greet(name = 'Anon', callback = function(){}) {
   console.log(`Hello ${name}!`);
@@ -175,7 +175,7 @@ function greet(name = 'Anon', callback = function(){}) {
 
 **Only works with Strings**
 
-//Example
+Example
 ```Javascript
 "MooTools".startsWith("Moo"); // true;
 "MooTools".startsWith("moo"); // false;
@@ -186,7 +186,7 @@ function greet(name = 'Anon', callback = function(){}) {
 
 **Works with both Array and Strings** & **case-sensitive**
 
-//Example
+Example
 ```Javascript
 'javascript'.includes('java')  // true
 
@@ -196,7 +196,7 @@ function greet(name = 'Anon', callback = function(){}) {
 
 padStart and padEnd allow us to pad a given string with any text of our choosing to ensure a string matches a given length
 
-//Example
+Example
 ```Javascript
 'def'.padStart(6, 'abc') // 'abcdef'
 
@@ -206,7 +206,7 @@ padStart and padEnd allow us to pad a given string with any text of our choosing
 
 Allows us to get an object's enumerable property pairs in array format.
 
-//Example
+Example
 ```Javascript
 //Object
 Object.entries({ 'a': 'A', 'b': 'B' }); // [["a","A"],["b","B"]]
@@ -218,7 +218,7 @@ Object.entries('david') // [["0","d"],["1","a"],["2","v"],["3","i"],["4","d"]]
 
 Provides only the values of an object
 
-//Example
+Example
 ```Javascript
 Object.values({ 'a': 23, 'b': 19 }) // [23, 19]
 ```
