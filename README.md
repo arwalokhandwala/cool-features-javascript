@@ -16,6 +16,7 @@ This repository includes all new useful ES6, ES7 and ES8 features
 - [property shorthand](#property-shorthand)
 - [object literals](#object-literals)
 - [object destructuring](#object-destructuring)
+- [async await](#async-await)
 - [default argument values](#default-argument-values)
 - [startsWith, endsWith](#startswith-endswith)
 - [includes](#includes)
@@ -160,6 +161,24 @@ var details = {
 let {address: {pincode: pincode}} = details
 console.log(pincode) //400055
 ```
+### Async Await
+
+Example
+```Javascript
+var promise = new Promise((resolve,reject) => {
+  resolve('ARWA LOKHANDWALA')
+})
+async function getDetails() {
+    console.log("Getting Details")
+    let details = await promise
+    console.info(details)
+    console.log('Done')
+}
+
+getDetails()
+```
+[Know More Here](https://javascript.info/async-await)
+
 ### Default Argument Values
 
 Example
