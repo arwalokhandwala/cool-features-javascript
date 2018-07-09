@@ -327,7 +327,7 @@ console.log(Number.isInteger(123.55)) //false
 console.log(Number.isInteger(-123)) //true
 ```
 
-**Number.isNaN()** - Checks if the value passed euals **NaN**
+**Number.isNaN()** - Checks if the value passed equals **NaN**
 
 Examples
 
